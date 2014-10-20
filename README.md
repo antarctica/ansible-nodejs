@@ -30,6 +30,10 @@ This role is designed for internal use but if useful can be shared publicly.
 
 ## Changelog
 
+### 0.1.1 - October 2014
+
+* Correcting task name
+
 ### 0.1.0 - October 2014
 
 * Initial version
