@@ -1,0 +1,11 @@
+---
+# Installs NodeJS from custom repository
+
+- name: add nodejs repository
+  apt_repository: repo=ppa:chris-lea/node.js state=present
+
+- name: install git
+  apt: update_cache=yes pkg={{ item }} state=present
+  with_items:
+    - python-pycurl
+    - nodejs
