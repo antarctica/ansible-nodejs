@@ -1,9 +1,9 @@
 ---
 galaxy_info:
-  description: Installs base NodeJS language and Node Package Manager (NPM)
+  description: Installs NodeJS runtime and Node Package Manager (NPM)
   author: British Antarctic Survey - Web and Applications Team
   company: British Antarctic Survey
-  license: Open Government Licence V2
+  license: MIT
   min_ansible_version: 1.6
   platforms:
   - name: Ubuntu
@@ -12,11 +12,11 @@ galaxy_info:
   - web
 
 armadillo_info:
-  name: Git
-  version: 0.1.2
+  name: NodeJS
+  version: 0.1.3
   source: git@stash.ceh.ac.uk:7999/barc/nodejs.git
   dependencies:
-  - git@stash.ceh.ac.uk:7999/barc/core.git#v0.4.2
+  - git@stash.ceh.ac.uk:7999/barc/core.git#v0.5.1
 
 dependencies:
   - core
