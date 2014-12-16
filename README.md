@@ -2,7 +2,7 @@
 
 **Part of the BAS Ansible Role Collection (BARC)**
 
-Installs base NodeJS language and Node Package Manager (NPM)
+Installs NodeJS runtime and Node Package Manager (NPM)
 
 ## Overview
 
